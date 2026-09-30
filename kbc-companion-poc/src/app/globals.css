@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --kbc-green: #009c3a;
+  --kbc-ink: #0b1f14;
+  --surface: #f3f7f4;
+  --font-sans: "DM Sans", "Segoe UI", system-ui, sans-serif;
+  --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--kbc-ink);
+  background:
+    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(0, 156, 58, 0.12), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 0%, rgba(26, 107, 138, 0.08), transparent 50%),
+    linear-gradient(180deg, #eef4f0 0%, #f7faf8 40%, #f3f7f4 100%);
+  min-height: 100dvh;
+}
+
+/* Soft grid atmosphere — banking precision without clutter */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(11, 31, 20, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(11, 31, 20, 0.03) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+@layer utilities {
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 6px;
+  }
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: rgba(11, 31, 20, 0.15);
+    border-radius: 3px;
+  }
+}
