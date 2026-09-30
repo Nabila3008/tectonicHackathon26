@@ -1,1 +1,3 @@
 # tectonicHackathon26
+
+Imagine you booked a flight ticket for a vacation. Now you have to think about the insurance you need to make there, what your typical expenses will be like and so on. We know it's a real challenge, and KBC knows it too. With the algorithm we have, AI can predict whenever there is a extraordinary event and send notifications to customers such as "Enjoy your vacation! Do you want to know some meal expenses in the region you are having your vacation in?". Users can also write their budget in KBC, and then KBC will tell you when you spend too much on a certain category.
